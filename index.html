@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Meline</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <ul id="dropDev" class="dropdown-content dropHeader">
+      <li><a href="#!">Все статьи</a></li>
+      <li><a href="#!">Front-end</a></li>
+      <li><a href="#!">Node js</a></li>
+      <li><a href="#!">CMS</a></li>
+      <li><a href="#!">Другое</a></li>
+    </ul>
+    <ul id="dropLife" class="dropdown-content dropHeader">
+      <li><a href="#!">Статьи</a></li>
+      <li><a href="#!">Видео</a></li>
+    </ul>
+    <ul id="dropArt" class="dropdown-content dropHeader">
+      <li><a href="#!">Галерея</a></li>
+      <li><a href="#!">Услуги</a></li>
+    </ul>
+    <nav class="navBar">
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo"><img src="./img/logo.png"></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="#">Главная</a></li>
+          <li>
+            <a class="dropdown-button" href="#!" data-activates="dropDev">Development</a>
+          </li>
+          <li>
+            <a class="dropdown-button" href="#!" data-activates="dropLife">Life</a>
+          </li>
+          <li>
+            <a class="dropdown-button" href="#!" data-activates="dropArt">Art</a>
+          </li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            <a href="#">Development</a>
+          </li>
+          <li>
+            <a href="#">Life</a>
+          </li>
+          <li>
+            <a href="#">Art</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="topIndexBlc">
+      <div class="descTopIndexBlc">
+        <div class="center descTopInsider center">
+          <div class="imgBlcTop">
+            <img src="./img/mySm.jpg" class="responsive-img circle">
+          </div>
+          <h1>Meline</h1>
+          <div class="hide-on-med-and-down">
+            <div class="lineDecorBot">
+              <p>JS Developer</p>
+              <div class="lineBord"></div>
+            </div>
+            <div class="lineDecorBot">
+              <p>Инженер пром электроники</p>
+              <div class="lineBord"></div>
+            </div>
+            <div class="lineDecorBot">
+              <p>Художник</p>
+              <div class="lineBord"></div>
+            </div>
+            <div class="lineDecorBot">
+              <p>Блогер</p>
+              <div class="lineBord"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="LinkDown">
+        <i class="fa fa-angle-down" aria-hidden="true"></i>
+      </div>
+    </section>
+
+    <section class="artIndex">
+      <h2>Art</h2>
+      <div class="container center">
+        <p class="artIndexDesc">В этом разделе вы найдете мои работы карандашами, пастелью и красками. Портреты, шаржи, рисунки по ткани и природа. <br/> Протрет - это самый уникальный и оригинальный подарок, который доступен каждому и понравится всем! Дарите близким радость! <br/> </p>
+
+        <div class="row center">
+          <div class="inlBlc btnSimpleBox">
+            <a href="#" class="btnSimple">Галерея</a>
+          </div>
+          <div class="inlBlc btnSimpleBox">
+            <a href="#" class="btnSimple">Услуги</a>
+          </div>
+          <div class="inlBlc btnSimpleBox">
+            <a href="#" class="btnSimple">Заказать</a>
+          </div>
+          <!-- <a href="#" class="btnSimple">Отзывы</a> -->
+        </div>
+      </div>
+
+      <div class="sliderImgGal" id="sliderImgGal">
+        <div class="row">
+          <div class="itemSlid">
+            <img src="./img/DSC_0355.jpg" alt="">
+          </div>
+          <div class="itemSlid">
+            <img src="./img/DSC_0362.jpg" alt="">
+          </div>
+          <div class="itemSlid">
+            <img src="./img/DSC_0358.jpg" alt="">
+          </div>
+          <div class="itemSlid">
+            <img src="./img/DSC_0360.jpg" alt="">
+          </div>
+          <div class="itemSlid">
+            <img src="./img/DSC_0361.jpg" alt="">
+          </div>
+          <div class="itemSlid">
+            <img src="./img/DSC_0362.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="parallax-container">
+        <div class="parallax"><img src="./img/dev1.jpg"></div>
+      </div>
+      <div class="categoriesDesc">
+        <div class="container">
+          <div class="row">
+            <div class="col m6 offset-m6 s12">
+              <h2>Development</h2>
+              <p>Здесь собраны статьи для разработчиков сайтов и инетерсные новости из мира техники.</p>
+              <div class="linksCatBlc">
+                <div class="inlBlc btnSimpleBox">
+                  <a href="#" class="btnSimple">Front-end</a>
+                </div>
+                <div class="inlBlc btnSimpleBox">
+                  <a href="#" class="btnSimple">Node js</a>
+                </div>
+                <div class="inlBlc btnSimpleBox">
+                  <a href="#" class="btnSimple">CMS</a>
+                </div>
+                <div class="inlBlc btnSimpleBox">
+                  <a href="#" class="btnSimple">Другое</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col m4 s12">
+            <div class="card hoverable">
+              <div class="card-image">
+                <a href="#"><img src="./img/11.jpg"></a>
+              </div>
+              <div class="card-content">
+                <span class="card-title">Card Title</span>
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Читать подробнее
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m4 s12">
+            <div class="card hoverable">
+              <div class="card-image">
+                <a href="#"><img src="./img/11.jpg"></a>
+              </div>
+              <div class="card-content">
+                <span class="card-title">Card Title</span>
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Читать подробнее
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m4 s12">
+            <div class="card hoverable">
+              <div class="card-image">
+                <a href="#"><img src="./img/11.jpg"></a>
+              </div>
+              <div class="card-content">
+                <span class="card-title">Card Title</span>
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Читать подробнее
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row center">
+          <a href="#" class="btnSimple">Больше статей</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio"></section>
+
+    <section class="categories">
+      <div class="parallax-container">
+        <div class="parallax"><img src="./img/life1.jpg"></div>
+      </div>
+      <div class="categoriesDesc">
+        <div class="container">
+          <div class="row">
+            <div class="col m6 offset-m6 s12">
+              <h2>Life</h2>
+              <p>Все что меня окружает - путешествия, интересные факты и развлечения, а так же мои работы карандашами, пастелью и красками. Портреты, шаржи, рисунки по ткани и природа..</p>
+              <div class="linksCatBlc">
+                <div class="inlBlc btnSimpleBox">
+                  <a href="#" class="btnSimple">ART</a>
+                </div>
+                <div class="inlBlc btnSimpleBox">
+                  <a href="#" class="btnSimple">Статьи</a>
+                </div>
+                <div class="inlBlc btnSimpleBox">
+                  <a href="#" class="btnSimple">Видео</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col m4 s12">
+            <div class="card hoverable">
+              <div class="card-image">
+                <a href="#"><img src="./img/11.jpg"></a>
+              </div>
+              <div class="card-content">
+                <span class="card-title">Card Title</span>
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Читать подробнее
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m4 s12">
+            <div class="card hoverable">
+              <div class="card-image">
+                <a href="#"><img src="./img/11.jpg"></a>
+              </div>
+              <div class="card-content">
+                <span class="card-title">Card Title</span>
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Читать подробнее
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m4 s12">
+            <div class="card hoverable">
+              <div class="card-image">
+                <a href="#"><img src="./img/11.jpg"></a>
+              </div>
+              <div class="card-content">
+                <span class="card-title">Card Title</span>
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+              </div>
+              <div class="card-action">
+                <a href="#">Читать подробнее
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row center">
+          <a href="#" class="btnSimple">Больше статей</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="artIndex">
+      <div class="row">
+        <div class="col m2 s12">
+          <div class="galImgIndexBlc">
+            <a class="fancybox" href="http://meline.lviv.ua/assets/cache/images/x-15822553_17m.eb0.jpg" rel="group">
+              <img src="http://meline.lviv.ua/assets/cache/images/x-15822553_17m.eb0.jpg" class="img-responsive">
+              <div class="galeryHover"><p>Портрет по фото</p></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>-->
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Авторский блог Meline</h5>
+            <!-- <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p> -->
+            <div class="socilLine">
+              <a href="https://www.youtube.com/channel/UCHVAGaSP_Veleh7F5nZmZIw" target="blank">
+                <i class="fa fa-youtube-play"></i>
+              </a>
+              <a href="https://www.facebook.com/marina.semiroz" target="blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="https://plus.google.com/u/0/100848964244907807045/about/p/pub" target="blank">
+                <i class="fa fa-google-plus"></i>
+              </a>
+              <a href="https://vk.com/id_meline_smile" target="blank">
+                <i class="fa fa-vk"></i>
+              </a>
+              <a href="http://ok.ru/profile/572960386287" target="blank">
+                <i class="fa fa-odnoklassniki"></i>
+              </a>
+              <a href="https://www.linkedin.com/profile/view?id=351709181&amp;trk=spm_pic" target="blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="mailto:meline.pe081@gmail.com" target="blank">
+                <i class="fa fa-at"></i>
+              </a>
+
+            </div>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <ul>
+              <li>
+                <a href="#!">Development</a>
+              </li>
+              <li>
+                <a href="#!">Life</a>
+              </li>
+              <li>
+                <a href="#!">Art</a>
+              </li>
+              <li>
+                <a href="#!">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2017 Meline
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="./src/index.js"></script>
+    <script type="text/javascript" src="./src/slider.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#sliderImgGal').fullSlider();
+      });
+    </script>
+
+  </body>
+</html>
